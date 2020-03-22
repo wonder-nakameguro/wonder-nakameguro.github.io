@@ -1,0 +1,30 @@
+h1 {
+    color: #ed6d1e;
+    text-align: center;
+    padding: 0.25em;
+    border-top: solid 2px #ed6d1e;
+    border-bottom: solid 2px #ed6d1e;
+    background: -webkit-repeating-linear-gradient(-45deg, #fff8f0, #fff8f0 3px,#fff7e9 3px, #fff7e9 7px);
+    background: repeating-linear-gradient(-45deg, #fff8f0, #fff8f0 3px,#fff7e9 3px, #fff7e9 7px);
+}
+
+h2 {
+  position: relative;
+  padding: 0.6em;
+  background: #ffdac4;
+}
+
+h2:after {
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 30px;
+  border: 15px solid transparent;
+  border-top: 15px solid #ffdac4;
+  width: 0;
+  height: 0;
+}
+
+.author{
+  font-size: medium;
+}
